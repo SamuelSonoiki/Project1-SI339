@@ -92,7 +92,7 @@ document.getElementById("workout").addEventListener("focus", function() {
 });
 
 document.getElementById("bucks").addEventListener("focus", function() {
-	Explanation.innerHTML = 'I watch a lot of Basketball. My favorite team is The Milwaukee Bucks and my favoriye player is Giannis';
+	Explanation.innerHTML = 'I watch a lot of Basketball. My favorite team is The Milwaukee Bucks and my favorite player is Giannis';
     Img.src = document.getElementById("bucks").src;
     changeAlt("bucks");
 });
