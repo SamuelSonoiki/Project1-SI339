@@ -37,7 +37,7 @@ document.getElementById("workout").addEventListener("click", function() {
 });
 
 document.getElementById("bucks").addEventListener("click", function() {
-	Explanation.innerHTML = 'I watch a lot of Basketball. My favorite team is The Milwaukee Bucks and my favoriye player is Giannis';
+	Explanation.innerHTML = 'I watch a lot of Basketball. My favorite team is The Milwaukee Bucks and my favorite player is Giannis';
     Img.src = document.getElementById("bucks").src;
     changeAlt("bucks");
 });
